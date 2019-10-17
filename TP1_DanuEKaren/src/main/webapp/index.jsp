@@ -1,12 +1,11 @@
 <%-- 
     Document   : index
-    Created on : 17/10/2019, 09:25:51
+    Created on : 17/10/2019, 10:13:58
     Author     : aluno
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
- 
 <html>
  <head>
  <title> Como criar um formulário completo em HTML </title>
@@ -15,7 +14,7 @@
  <style type="text/css" >
    input, textarea, select {
       display: block;
-      margin-bottom: 10px: 
+      margin-bottom: 10px; 
    }
    /*div.sexo {
     display: inline;
@@ -30,7 +29,7 @@
   <h1> Formulário HTML js</h1> 
   <h2> Preencha o formulário abaixo</h2><br />
 
-<form oninput="x.value=parseInt(a.value)" action="Script_do_Formulario.php" method="post">
+<form oninput="x.value=parseInt(a.value)" action="/MeuPrimeiroServlet" method="post">
 
 <!-- DADOS PESSOAIS-->
 <fieldset>
@@ -91,7 +90,7 @@
 
     <label for="interesse" >Interesse: (com multipla escolha</label>
     <select name="interesse" multiple size="5"> 
-        <option value="js" selected="js">JavaScript</option> 
+        <option value="js" selected="">JavaScript</option> 
         <option value="c">C</option> 
         <option value="pytho">Python</option> 
         <option value="java">Java</option> 
