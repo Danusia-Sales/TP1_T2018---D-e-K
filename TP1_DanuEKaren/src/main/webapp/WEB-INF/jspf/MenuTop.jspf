@@ -1,0 +1,6 @@
+<%-- Comentário Scriplet --%>
+<%@ page pageEncoding="UTF-8" %>
+<!-- Comentário HTML -->
+<div style="background: black; color: white">
+    <h1>MEU SITE</h1>
+</div>
