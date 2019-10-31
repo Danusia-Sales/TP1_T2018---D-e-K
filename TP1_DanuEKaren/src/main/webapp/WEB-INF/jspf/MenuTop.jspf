@@ -1,6 +1,7 @@
 <%-- Comentário Scriplet --%>
 <%@ page pageEncoding="UTF-8" %>
 <!-- Comentário HTML -->
-<div style="background: black; color: white">
+<div style="background: black; color: palevioletred">
     <h1>MEU SITE</h1>
+    <h4> Aprendendo Java Web </h4>
 </div>
