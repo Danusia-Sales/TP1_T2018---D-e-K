@@ -42,7 +42,7 @@
     <input type="text" name="sobrenome">
   </div>
   <br><br>
- <div>
+ <%--div>
     <label>Nascimento: </label>
     <label for="data">Data de nascimento: </label> 
     <input type="date" name="data">
@@ -98,7 +98,7 @@
         <option value="php">PHP</option> 
         <option value="go">Go</option> 
         </select>
-    </div>
+    </div--%>
   </fieldset>
   <fieldset>
     <legend>Dados de documentos</legend>
@@ -114,13 +114,13 @@
 
 <br />
 <!-- ENDEREÇO -->
-<fieldset>
+<%--fieldset>
  <legend>Dados de Endereço</legend>
  <div>
-    <label for="rua">Rua:</label>
+    <label for="rua">Rua: </label>
    
     <input type="text" name="rua">
-    <label for="numero">Numero:</label>
+    <label for="numero">Numero: </label>
     <input type="text" name="numero" size="4">
    </div>
    <div>
@@ -130,21 +130,21 @@
    <div>
     <label for="estado">Estado:</label>
     <select name="estado"> 
-    <option value="ac">Acre</option> 
-    <option value="al">Alagoas</option> 
-    <option value="am">Amazonas</option> 
-    <option value="ap">Amapá</option> 
-    <option value="ba">Bahia</option> 
-    <option value="ce">Ceará</option> 
-    <option value="df">Distrito Federal</option> 
-    <option value="es">Espírito Santo</option> 
-    <option value="go">Goiás</option> 
-    <option value="ma">Maranhão</option> 
-    <option value="mt">Mato Grosso</option> 
+    <option value="AC">Acre</option> 
+    <option value="AL">Alagoas</option> 
+    <option value="AM">Amazonas</option> 
+    <option value="AP">Amapá</option> 
+    <option value="BA">Bahia</option> 
+    <option value="CE">Ceará</option> 
+    <option value="DF">Distrito Federal</option> 
+    <option value="ES">Espírito Santo</option> 
+    <option value="GO">Goiás</option> 
+    <option value="MA">Maranhão</option> 
+    <option value="MT">Mato Grosso</option> 
     <option value="ms">Mato Grosso do Sul</option> 
     <option value="mg">Minas Gerais</option> 
     <option value="pa">Pará</option> 
-    <option value="pb">Paraíba</option> 
+    <option value="PB">Paraíba</option> 
     <option value="pr">Paraná</option> 
     <option value="pe">Pernambuco</option> 
     <option value="pi">Piauí</option> 
@@ -167,7 +167,7 @@
     <label for="cep">CEP: </label>
     <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
    </div>
-</fieldset>
+</fieldset--%>
 <br />
 
 <!-- DADOS DE LOGIN -->
