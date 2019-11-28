@@ -115,7 +115,7 @@
 <br />
 <!-- ENDEREÇO -->
 <%--fieldset>
- <legend>Dados de Endereço</legend>
+ <legend></legend>
  <div>
     <label for="rua">Rua: </label>
    
