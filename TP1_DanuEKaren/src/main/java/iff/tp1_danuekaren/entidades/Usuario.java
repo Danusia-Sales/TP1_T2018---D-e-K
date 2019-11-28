@@ -101,5 +101,14 @@ public class Usuario implements Serializable {
     public String toString() {
         return "iff.tp1_danuekaren.Usuario[ idUsuario=" + idUsuario + " ]";
     }
-    
+
+    public static void main(String args[]){
+	
+	long cpf; cpf = 11111111111L;		
+	System.out.println(""+cpf);
+        
+        long rg; rg = 1111111111111L;
+        System.out.println(""+rg);
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

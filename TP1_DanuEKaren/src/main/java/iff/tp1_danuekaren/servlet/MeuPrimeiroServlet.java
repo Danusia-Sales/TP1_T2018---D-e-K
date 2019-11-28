@@ -34,7 +34,7 @@ public class MeuPrimeiroServlet extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String nome = request.getParameter("nome");
+                String nome = request.getParameter("nome");
         String sobrenome = request.getParameter("sobrenome");
         String nomeCompleto = nome+" "+sobrenome;
         System.out.println("Nome completo: "+nomeCompleto);
@@ -56,6 +56,7 @@ public class MeuPrimeiroServlet extends HttpServlet {
        
         response.sendRedirect("teste.jsp");
     }
+ 
     
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
